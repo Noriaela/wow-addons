@@ -1,0 +1,274 @@
+<!-- Revision: 22 2009-09-04T19:03:22Z -->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\..\FrameXML\UI.xsd">
+  <Script file="ArmoryPetTalentFrame.lua"/>
+  <Frame name="ArmoryPetTalentFrame" setAllPoints="true" movable="true" parent="ArmoryPetFrame" enableMouse="true" hidden="true">
+    <HitRectInsets>
+      <AbsInset left="0" right="30" top="0" bottom="75"/>
+    </HitRectInsets>
+    <Layers>
+      <Layer level="ARTWORK">
+        <Texture name="ArmoryPetTalentFrameBackgroundTopLeft">
+          <Size>
+            <AbsDimension x="256" y="160"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT">
+              <Offset>
+                <AbsDimension x="23" y="-77"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture name="ArmoryPetTalentFrameBackgroundTopRight">
+          <Size>
+            <AbsDimension x="64" y="160"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT" relativeTo="ArmoryPetTalentFrameBackgroundTopLeft" relativePoint="TOPRIGHT">
+              <Offset>
+                <AbsDimension x="0" y="0"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture name="ArmoryPetTalentFrameBackgroundBottomLeft">
+          <Size>
+            <AbsDimension x="256" y="104"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT" relativeTo="ArmoryPetTalentFrameBackgroundTopLeft" relativePoint="BOTTOMLEFT">
+              <Offset>
+                <AbsDimension x="0" y="0"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+        <Texture name="ArmoryPetTalentFrameBackgroundBottomRight">
+          <Size>
+            <AbsDimension x="64" y="104"/>
+          </Size>
+          <Anchors>
+            <Anchor point="TOPLEFT" relativeTo="ArmoryPetTalentFrameBackgroundTopLeft" relativePoint="BOTTOMRIGHT">
+              <Offset>
+                <AbsDimension x="0" y="0"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </Texture>
+      </Layer>
+      <Layer level="BACKGROUND">
+        <FontString name="ArmoryPetTalentFrameSpentPoints" inherits="GameFontNormalSmall" text="Spent points: 0">
+          <Anchors>
+            <Anchor point="BOTTOMLEFT">
+              <Offset>
+                <AbsDimension x="36" y="86"/>
+              </Offset>
+            </Anchor>
+          </Anchors>
+        </FontString>
+      </Layer>
+      </Layers>
+    <Frames>
+      <ScrollFrame name="ArmoryPetTalentFrameScrollFrame" inherits="UIPanelScrollFrameTemplate">
+        <Size>
+          <AbsDimension x="296" y="224"/>
+        </Size>
+        <Anchors>
+          <Anchor point="TOPRIGHT">
+            <Offset>
+              <AbsDimension x="-65" y="-77"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer level="ARTWORK">
+            <Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+              <Size>
+                <AbsDimension x="31" y="128"/>
+              </Size>
+              <Anchors>
+                <Anchor point="TOPLEFT" relativePoint="TOPRIGHT">
+                  <Offset>
+                    <AbsDimension x="-2" y="5"/>
+                  </Offset>
+                </Anchor>
+              </Anchors>
+              <TexCoords left="0" right="0.484375" top="0" bottom="0.5"/>
+            </Texture>
+            <Texture file="Interface\PaperDollInfoFrame\UI-Character-ScrollBar">
+              <Size>
+                <AbsDimension x="31" y="106"/>
+              </Size>
+              <Anchors>
+                <Anchor point="BOTTOMLEFT" relativePoint="BOTTOMRIGHT">
+                  <Offset>
+                    <AbsDimension x="-2" y="-2"/>
+                  </Offset>
+                </Anchor>
+              </Anchors>
+              <TexCoords left="0.515625" right="1.0" top="0" bottom="0.4140625"/>
+            </Texture>
+          </Layer>
+        </Layers>
+        <ScrollChild>
+          <Frame name="ArmoryPetTalentFrameScrollChildFrame">
+            <Size>
+              <AbsDimension x="320" y="50"/>
+            </Size>
+            <Anchors>
+              <Anchor point="TOPLEFT"/>
+            </Anchors>
+            <Layers>
+              <Layer level="BACKGROUND">
+                <Texture name="ArmoryPetTalentFrameBranch1" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch2" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch3" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch4" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch5" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch6" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch7" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch8" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch9" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch10" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch11" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch12" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch13" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch14" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch15" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch16" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch17" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch18" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch19" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch20" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch21" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch22" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch23" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch24" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch25" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch26" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch27" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch28" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch29" inherits="ArmoryTalentBranchTemplate"/>
+                <Texture name="ArmoryPetTalentFrameBranch30" inherits="ArmoryTalentBranchTemplate"/>
+              </Layer>
+            </Layers>
+            <Frames>
+              <Button name="ArmoryPetTalentFrameTalent1" inherits="ArmoryTalentButtonTemplate" id="1"/>
+              <Button name="ArmoryPetTalentFrameTalent2" inherits="ArmoryTalentButtonTemplate" id="2"/>
+              <Button name="ArmoryPetTalentFrameTalent3" inherits="ArmoryTalentButtonTemplate" id="3"/>
+              <Button name="ArmoryPetTalentFrameTalent4" inherits="ArmoryTalentButtonTemplate" id="4"/>
+              <Button name="ArmoryPetTalentFrameTalent5" inherits="ArmoryTalentButtonTemplate" id="5"/>
+              <Button name="ArmoryPetTalentFrameTalent6" inherits="ArmoryTalentButtonTemplate" id="6"/>
+              <Button name="ArmoryPetTalentFrameTalent7" inherits="ArmoryTalentButtonTemplate" id="7"/>
+              <Button name="ArmoryPetTalentFrameTalent8" inherits="ArmoryTalentButtonTemplate" id="8"/>
+              <Button name="ArmoryPetTalentFrameTalent9" inherits="ArmoryTalentButtonTemplate" id="9"/>
+              <Button name="ArmoryPetTalentFrameTalent10" inherits="ArmoryTalentButtonTemplate" id="10"/>
+              <Button name="ArmoryPetTalentFrameTalent11" inherits="ArmoryTalentButtonTemplate" id="11"/>
+              <Button name="ArmoryPetTalentFrameTalent12" inherits="ArmoryTalentButtonTemplate" id="12"/>
+              <Button name="ArmoryPetTalentFrameTalent13" inherits="ArmoryTalentButtonTemplate" id="13"/>
+              <Button name="ArmoryPetTalentFrameTalent14" inherits="ArmoryTalentButtonTemplate" id="14"/>
+              <Button name="ArmoryPetTalentFrameTalent15" inherits="ArmoryTalentButtonTemplate" id="15"/>
+              <Button name="ArmoryPetTalentFrameTalent16" inherits="ArmoryTalentButtonTemplate" id="16"/>
+              <Button name="ArmoryPetTalentFrameTalent17" inherits="ArmoryTalentButtonTemplate" id="17"/>
+              <Button name="ArmoryPetTalentFrameTalent18" inherits="ArmoryTalentButtonTemplate" id="18"/>
+              <Button name="ArmoryPetTalentFrameTalent19" inherits="ArmoryTalentButtonTemplate" id="19"/>
+              <Button name="ArmoryPetTalentFrameTalent20" inherits="ArmoryTalentButtonTemplate" id="20"/>
+              <Button name="ArmoryPetTalentFrameTalent21" inherits="ArmoryTalentButtonTemplate" id="21"/>
+              <Button name="ArmoryPetTalentFrameTalent22" inherits="ArmoryTalentButtonTemplate" id="22"/>
+              <Button name="ArmoryPetTalentFrameTalent23" inherits="ArmoryTalentButtonTemplate" id="23"/>
+              <Button name="ArmoryPetTalentFrameTalent24" inherits="ArmoryTalentButtonTemplate" id="24"/>
+              <Button name="ArmoryPetTalentFrameTalent25" inherits="ArmoryTalentButtonTemplate" id="25"/>
+              <Button name="ArmoryPetTalentFrameTalent26" inherits="ArmoryTalentButtonTemplate" id="26"/>
+              <Button name="ArmoryPetTalentFrameTalent27" inherits="ArmoryTalentButtonTemplate" id="27"/>
+              <Button name="ArmoryPetTalentFrameTalent28" inherits="ArmoryTalentButtonTemplate" id="28"/>
+              <Button name="ArmoryPetTalentFrameTalent29" inherits="ArmoryTalentButtonTemplate" id="29"/>
+              <Button name="ArmoryPetTalentFrameTalent30" inherits="ArmoryTalentButtonTemplate" id="30"/>
+              <Button name="ArmoryPetTalentFrameTalent31" inherits="ArmoryTalentButtonTemplate" id="31"/>
+              <Button name="ArmoryPetTalentFrameTalent32" inherits="ArmoryTalentButtonTemplate" id="32"/>
+              <Button name="ArmoryPetTalentFrameTalent33" inherits="ArmoryTalentButtonTemplate" id="33"/>
+              <Button name="ArmoryPetTalentFrameTalent34" inherits="ArmoryTalentButtonTemplate" id="34"/>
+              <Button name="ArmoryPetTalentFrameTalent35" inherits="ArmoryTalentButtonTemplate" id="35"/>
+              <Button name="ArmoryPetTalentFrameTalent36" inherits="ArmoryTalentButtonTemplate" id="36"/>
+              <Button name="ArmoryPetTalentFrameTalent37" inherits="ArmoryTalentButtonTemplate" id="37"/>
+              <Button name="ArmoryPetTalentFrameTalent38" inherits="ArmoryTalentButtonTemplate" id="38"/>
+              <Button name="ArmoryPetTalentFrameTalent39" inherits="ArmoryTalentButtonTemplate" id="39"/>
+              <Button name="ArmoryPetTalentFrameTalent40" inherits="ArmoryTalentButtonTemplate" id="40"/>
+
+              <Frame name="ArmoryPetTalentFrameArrowFrame" setAllPoints="true">
+                <Layers>
+                  <Layer level="OVERLAY">
+                    <Texture name="ArmoryPetTalentFrameArrow1" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow2" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow3" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow4" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow5" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow6" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow7" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow8" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow9" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow10" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow11" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow12" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow13" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow14" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow15" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow16" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow17" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow18" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow19" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow20" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow21" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow22" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow23" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow24" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow25" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow26" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow27" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow28" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow29" inherits="ArmoryTalentArrowTemplate"/>
+                    <Texture name="ArmoryPetTalentFrameArrow30" inherits="ArmoryTalentArrowTemplate"/>
+                  </Layer>
+                </Layers>
+              </Frame>
+            </Frames>
+          </Frame>
+        </ScrollChild>
+      </ScrollFrame>
+      <Frame name="ArmoryPetTalentScrollButtonOverlay" parent="ArmoryPetTalentFrameScrollFrameScrollBarScrollDownButton" hidden="true">
+        <Size>
+          <AbsDimension x="32" y="32"/>
+        </Size>
+        <Anchors>
+          <Anchor point="CENTER">
+            <Offset>
+              <AbsDimension x="0" y="0"/>
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer level="OVERLAY">
+            <Texture file="Interface\Buttons\UI-ScrollBar-Button-Overlay" setAllPoints="true" alphaMode="ADD"/>
+          </Layer>
+        </Layers>
+      </Frame>
+    </Frames>
+    <Scripts>
+      <OnLoad>
+        ArmoryPetTalentFrame_OnLoad(self);
+      </OnLoad>
+      <OnEvent>
+        ArmoryPetTalentFrame_OnEvent(self, event, ...);
+      </OnEvent>
+      <OnShow>
+        ArmoryPetTalentFrame_OnShow(self);
+      </OnShow>
+      <OnMouseUp>
+        ArmoryChildWindow_OnMouseUp(self, button);
+      </OnMouseUp>
+      <OnMouseDown>
+        ArmoryChildWindow_OnMouseDown(self, button);
+      </OnMouseDown>
+    </Scripts>
+  </Frame>
+</Ui>

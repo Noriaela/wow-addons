@@ -1,0 +1,22 @@
+## Interface: 30300
+## Title: Armory
+## Title-frFR: Armory [Armurerie]
+## Title-koKR: Armory [케릭터 정보 열람]
+## Version: v8.2.8
+## Notes: Provides an overview of equipment, stats, inventory, professions, quests, spells and more for all your characters
+## Notes-koKR: 계정내 모든 케릭터들의 퀘스트, 스킬, 기술, 상태, 장비, 업적, 가방 및 은행, 우편함 등의 모든 정보를 살펴볼 수 있는 기능을 제공합니다.
+## Author: Warmexx [Neighbours]
+## SavedVariables: ArmoryDB, ArmorySettings, ArmoryModules, ArmoryCache
+## SavedVariablesPerCharacter: ArmoryLocalSettings
+## X-Donate: PayPal:warmexx AT wow-neighbours DOT com
+## X-Website: http://www.wow-neighbours.com/
+## X-Category: Inventory
+## X-Curse-Packaged-Version: v8.2.8
+## X-Curse-Project-Name: Armory
+## X-Curse-Project-ID: armory
+## X-Curse-Repository-ID: wow/armory/mainline
+
+Embeds.xml
+Locales.xml
+Core.xml
+Frames.xml

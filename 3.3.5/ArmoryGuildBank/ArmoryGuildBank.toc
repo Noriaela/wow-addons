@@ -1,0 +1,22 @@
+## Interface: 30300
+## Title: ArmoryGuildBank
+## Title-frFR: ArmoryGuildBank [Banque de Guilde]
+## Title-koKR: ArmoryGuildBank [길드은행 정보 열람]
+## Version: v8.2.8
+## Notes: Provides guild bank information to Armory users
+## Notes-frFR: Fournit des renseignements de la banque de guilde aux utilisateurs de l'Armurerie
+## Notes-koKR: Armory사용자에게 길드은행의 정보를 추가로 제공합니다.
+## Author: Warmexx [Neighbours]
+## Dependencies: Armory
+## SavedVariables: AgbDB
+## X-Donate: PayPal:warmexx AT wow-neighbours DOT com
+## X-Website: http://www.wow-neighbours.com/
+## X-Category: Inventory
+## X-Curse-Packaged-Version: v8.2.8
+## X-Curse-Project-Name: Armory
+## X-Curse-Project-ID: armory
+## X-Curse-Repository-ID: wow/armory/mainline
+
+Locales.xml
+Core.xml
+Frames.xml
