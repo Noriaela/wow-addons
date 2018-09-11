@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: UnitFramesImproved
+## Notes: Extends the Blizzard unitframes for better visuals, with a minimal 9KB footprint.
+## Version: 1.0
+## Author: Althalla (Kim Forsberg)
+
+## X-License: Public Domain
+## X-Category: Unit Frames
+
+UnitFramesImproved.lua
