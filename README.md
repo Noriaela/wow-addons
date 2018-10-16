@@ -27,3 +27,8 @@ These are all the addon's i'm currently using for 1.12.1 and 3.3.5
 * UnitFramesImproved (No link for this)
 * [XLoot](https://wow.curseforge.com/projects/xloot-1-0/files/444623)
 * [Bartender4](https://www.wowace.com/projects/bartender4/files/439962)
+
+### Cataclysm
+* [MikScrollingBattleText](https://wow.curseforge.com/projects/mik-scrolling-battle-text/files/605130)
+* [TomTom](https://wow.curseforge.com/projects/tomtom/files/602965)
+* [ElvUI](https://github.com/ElvUI-Cataclysm/ElvUI-4.3.4)
