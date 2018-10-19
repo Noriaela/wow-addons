@@ -5,9 +5,11 @@ These are all the addon's i'm currently using for 1.12.1 and 3.3.5
 ### Vanilla 
 * [Questie](https://github.com/AeroScripts/QuestieDev)
 * [UnitScan](https://github.com/shirsig/unitscan)
-* [ClassPortraits](https://github.com/Ko0z/ClassPortraits_Vanilla/)
-* [ModUI](https://github.com/obble/modui)
-* [MoveAnything](https://legacy-wow.com/vanilla-addons/MoveAnything)
+* [ElvUI](https://github.com/ElvUI-Vanilla/ElvUI)
+* [ElvUI_Enhanced](https://github.com/ElvUI-Vanilla/ElvUI_Enhanced)
+* [ElvUI_EnhancedFriendsList](https://github.com/ElvUI-Vanilla/ElvUI_EnhancedFriendsList)
+* [ElvUI_LocPlus](https://github.com/ElvUI-Vanilla/ElvUI_LocPlus)
+* [ElvUI_RaidMarkers](https://github.com/ElvUI-Vanilla/ElvUI_RaidMarkers)
 
 ### WoTLK
 * [MikScrollingBattleText](https://wow.curseforge.com/projects/mik-scrolling-battle-text/files/422879)

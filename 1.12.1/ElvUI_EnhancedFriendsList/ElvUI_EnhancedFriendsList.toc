@@ -1,0 +1,11 @@
+﻿## Interface: 20400
+## Author: Apollyon, Bunny
+## Version: 1.09
+## Title: |cff175581E|r|cffC4C4C4lvUI|r |cff175581E|r|cffC4C4C4nhanced|r |cff175581F|r|cffC4C4C4riends|r |cff175581L|r|cffC4C4C4ist|r
+## SavedVariables: EnhancedFriendsListDB
+## RequiredDeps: ElvUI
+
+Locales\Load_Locales.xml
+Settings\Load_Settings.xml
+ElvUI_EnhancedFriendsList.lua
+Config\Load_Config.xml
