@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: WhereToGo
+## Version: 1.0
+## Notes: Find the ideal leveling zone.
+## Author: Zezik
+
+WhereToGo.lua

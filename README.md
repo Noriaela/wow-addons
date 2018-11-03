@@ -5,11 +5,11 @@ These are all the addon's i'm currently using for 1.12.1, 3.3.5 and 4.3.4
 ### Vanilla 
 * [Questie](https://github.com/AeroScripts/QuestieDev)
 * [UnitScan](https://github.com/shirsig/unitscan)
-* [ElvUI](https://github.com/ElvUI-Vanilla/ElvUI)
-* [ElvUI_Enhanced](https://github.com/ElvUI-Vanilla/ElvUI_Enhanced)
-* [ElvUI_EnhancedFriendsList](https://github.com/ElvUI-Vanilla/ElvUI_EnhancedFriendsList)
-* [ElvUI_LocPlus](https://github.com/ElvUI-Vanilla/ElvUI_LocPlus)
-* [ElvUI_RaidMarkers](https://github.com/ElvUI-Vanilla/ElvUI_RaidMarkers)
+* [WhereToGo](https://wow.curseforge.com/projects/where-to-go/files/2487365)
+* [EnergyWatch v2](https://wow.curseforge.com/projects/project-3246/files/74012)
+* [RogueHelperSE](https://www.nexusmods.com/worldofwarcraft/mods/395)
+* [FlightMap](https://wow.curseforge.com/projects/flight-map/files/62828)
+* [MoveAnything](https://legacy-wow.com/vanilla-addons/MoveAnything)
 
 ### WoTLK
 * [MikScrollingBattleText](https://wow.curseforge.com/projects/mik-scrolling-battle-text/files/422879)

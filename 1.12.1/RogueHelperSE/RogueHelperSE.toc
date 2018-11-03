@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: RogueHelperSE
+## Notes: This WoW mod gives the user a little window that shows energy and combo points when playing a rogue.
+## Author: kathar
+## SavedVariables: ROGUEHELPER_Save
+RogueHelperSE.xml
