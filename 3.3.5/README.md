@@ -17,3 +17,11 @@
 * [XLoot](https://wow.curseforge.com/projects/xloot-1-0/)
 * [Bartender4](https://www.wowace.com/projects/bartender4/)
 * [Tidy Plates](https://wow.curseforge.com/projects/tidy-plates)
+* [Range Display](https://www.curseforge.com/wow/addons/range-display)
+
+### Bartender Profile
+
+Note: Resolution 1280x1024
+
+![screen shot 2019-01-26 at 4 28 17 am](https://user-images.githubusercontent.com/22671423/51786534-d6ed6e80-2122-11e9-9e32-782645d1fd9a.png)
+
