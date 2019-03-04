@@ -1,3 +1,3 @@
 ### Retail
 
-Will update in a little bit
+* [SUI](https://wow.curseforge.com/projects/sui)
