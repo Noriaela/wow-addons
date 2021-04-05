@@ -9,7 +9,7 @@
 * [Leatrix Maps](https://www.curseforge.com/wow/addons/leatrix-maps)
 * [Leatrix Plus](https://www.curseforge.com/wow/addons/leatrix-plus)
 * [MikScrollingBattleText](https://www.curseforge.com/wow/addons/mik-scrolling-battle-text)
-* [Molinari](<https://www.curseforge.com/wow/addons/molinari)
+* [Molinari](https://www.curseforge.com/wow/addons/molinari)
 * [Paste](https://www.curseforge.com/wow/addons/paste)
 * [Titan Panel](https://www.curseforge.com/wow/addons/titan-panel)
 * [Pawn](https://www.curseforge.com/wow/addons/pawn)
