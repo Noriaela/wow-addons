@@ -1,2 +1,2 @@
-### Retail Addons
+### Classic Addons
 
