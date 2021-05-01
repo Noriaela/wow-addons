@@ -1,6 +1,5 @@
 ### Retail Addons
 
-* [WeakAuras](https://www.curseforge.com/wow/addons/weakauras-2)
 * [Decursive](https://www.curseforge.com/wow/addons/decursive)
 * [Details](https://www.curseforge.com/wow/addons/details)
 * [Immersion](https://www.curseforge.com/wow/addons/immersion)
@@ -15,9 +14,17 @@
 * [Pawn](https://www.curseforge.com/wow/addons/pawn)
 * [TomTom](https://www.curseforge.com/wow/addons/tomtom)
 
+
 #### [ElvUI](https://www.tukui.org/download.php?ui=elvui)
 
+* [Profile](elvui/profile.txt)
 * [AddonSkins](https://www.tukui.org/addons.php?id=3)
+
+
+### [WeakAuras](https://www.curseforge.com/wow/addons/weakauras-2)
+
+* [WeakAuras (Preach)](https://www.dropbox.com/sh/aexdoru4iusl1ei/AABMhaHQcSGyclUghaEyhE-La?dl=0&preview=WeakAuras.lua)
+
 
 #### [GatherMate2](https://www.curseforge.com/wow/addons/gathermate2)
 
@@ -38,8 +45,7 @@
 * [DBM-Overwatch-Countdown](https://www.curseforge.com/wow/addons/deadly-boss-mods-dbm-overwatch-countdown-pack)
 * [DBM-PvP](https://www.curseforge.com/wow/addons/dbm-pvp)
 
+
 #### [HandyNotes](https://www.curseforge.com/wow/addons/handynotes)
 
 * [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
-
-
